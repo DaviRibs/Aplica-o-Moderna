@@ -1,0 +1,19 @@
+{
+  "name": "curso-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.3.2"
+  },
+  "devDependencies": {
+    "cypress": "^7.1.0",
+    "cypress-cucumber-preprocessor": "^4.0.3"
+  }
+}
