@@ -13,7 +13,7 @@ const getSomething = () => {
 const system = async () => {
   console.log('init');
   const some = await getSomething()
-  console.log('Something is ${some}')
+  console.log(`Something is ${some}`)
   console.log('end')
 
 }
