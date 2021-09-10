@@ -77,9 +77,16 @@ it('TextFields', () => {
     .select('1graucomp')
     .should('have.value', '1graucomp')
     
-
+    //TODO Validar as opções do combo
 })
 
+it.only('Combo multiplo', () => {
+cy.get('[data-testid=dataEsportes]')
+  .select(['Natacao', 'Corrida', 'nada'])
+
+ //TODO validar opções selecionadas do combo multiplo
+
+})
 
 
 })
