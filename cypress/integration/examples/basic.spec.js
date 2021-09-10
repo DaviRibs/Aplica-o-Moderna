@@ -14,6 +14,8 @@ describe('Cypress basics', ()=> {
     cy.title()
     .should('be.equal', 'Campo de Treinamento')
     .and('contain', 'Campo')
+    //TODO imprimir o log no console
+    //TODO escrever o log em um campo de texto
 })
 it('should find and intereact with an element' , () => {
     cy.visit('https://wcaquino.me/cypress/componentes.html')
